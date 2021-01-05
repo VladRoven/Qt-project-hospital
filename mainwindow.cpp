@@ -11,7 +11,6 @@
 #include <QSortFilterProxyModel>
 #include <QMessageBox>
 #include <QDateTime>
-#include <QDateTime>
 #include <QAbstractItemModel>
 
 MainWindow::MainWindow(QWidget *parent)

@@ -53,6 +53,9 @@ void DocsEditor::on_btn_accept_clicked()
     if (!client_reg.exactMatch(ui->patronymic->text()))
         error += "Корректно введите отчество!\n";
 
+    if (!client_reg.exactMatch(ui->specialty->text()))
+        error += "Корректно введите специальность!\n";
+
     if (ui->time_from->time().hour() >= ui->time_to->time().hour())
         error += "Корректно укажите время работы!\n";
 
